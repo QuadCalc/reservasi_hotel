@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Reservasi</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Reservasi Hotel</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tamu.html">Tamu</a></li>
+        <li><a href="reservasi.html">Reservasi</a></li>
+        <li><a href="pembayaran.html">Pembayaran</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Form Reservasi Kamar</h2>
+    <form id="reservasiForm">
+      <label>ID Tamu:<br><input type="number" name="id_tamu" required></label><br><br>
+      <label>Tanggal Check-In:<br><input type="date" name="tanggal_checkin" required></label><br><br>
+      <label>Tanggal Check-Out:<br><input type="date" name="tanggal_checkout" required></label><br><br>
+      <label>Nomor Kamar:<br><input type="text" name="no_kamar" required></label><br><br>
+      <button type="submit">Reservasi</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Reservasi Hotel</p>
+  </footer>
+
+  <script src="js/reservasi.js"></script>
+</body>
+</html>
